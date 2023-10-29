@@ -13,12 +13,8 @@
         android:theme="@style/Theme.JetpackComposeShowcase"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".ComposeActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.JetpackComposeShowcase">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
